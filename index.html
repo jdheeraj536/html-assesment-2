@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment 2</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+
+    <form action="get">
+        Name: <input type="text" oninvalid="this.setCustomValidity('Please fill in this Field')" name="Name" required placeholder="name" id=""><br><br>
+        Email Address: <input type="email" oninvalid="this.setCustomValidity('Please fill in this Field')" required  name="email" placeholder="Email" id="" ><br><br>
+        Password: <input type="Password"  value="" name="Password" placeholder="password" id=""><br><br><br>
+        Language <br> <br>
+        <input type="radio" name="Language" value="React" id="">
+        <label for="React">React</label><br>
+        <input type="radio" name="Language" value="Angular" id="">
+        <label for="Angular">Angular</label><br>
+        <input type="radio" name="Language" value="Vue" id="">
+        <label for="Vue">Vue</label>
+
+        <p>course</p>
+        <input type="checkbox" name="course1" value="MERN" id="">
+        <label for="course1">MERN</label><br>
+        <input type="checkbox" name="course2" value="MEAN" id="">
+        <label for="course2">MEAN</label><br>
+        <input type="checkbox" name="course3" value="MEVN" id="">
+        <label for="course3">MEVN</label>
+
+        <br> <br>
+        <label for="course">Field</label><br>
+        <select name="course" id="" >
+            <option value="Front End">Front End </option>
+            <option value="Back End">Back End</option>
+            <option value="Full stack">Full stack</option>
+        </select><br><br>
+        
+     <textarea name="Description" id=""  cols="30" rows="10"></textarea><br><br>
+
+     Phone Number <input type="number" name="Phone" id="">
+
+     <input type="submit" value="submit" >
+ </form>
+ <h1>TABLES</h1> 
+ <a href="index1.html">Click Here</a>
+ 
+</body>
+</html>
